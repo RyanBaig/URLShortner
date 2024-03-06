@@ -47,6 +47,7 @@ button.pack(pady=10, padx=20)
 
 shortUrl = tk.Text(frame, font=("Helvetica", 13))
 shortUrl.insert("1.0","Please enter the Long Url and click the 'Convert into Short URL' button to retreieve the shortened URL.")
+shortUrl.configure(state="disabled")
 shortUrl.pack(pady=5)
 
 root.mainloop()
